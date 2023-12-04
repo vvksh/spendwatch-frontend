@@ -7,7 +7,13 @@
     <title>Expense Tracker</title>
 </head>
 <body>
-<div class="container">
+<div id="passwordPrompt">
+    <label for="password">Enter Password: </label>
+    <input type="password" id="password">
+    <button onclick="submitPassword()">Submit</button>
+</div>
+
+<div class="container" id="mainContainer" style="display: none;">
     <h1>Expense Tracker</h1>
     <div class="chart-container">
         <h2>Monthly Expenses</h2>
